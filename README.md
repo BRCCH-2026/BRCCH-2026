@@ -18,12 +18,11 @@ This tutorial is based on the **BRCCH Foundations of Data Science** lecture taug
 
 ### Dataset
 
-- **Heart Disease Dataset** (`heart_disease_data.csv` and `processed_cleveland_data`)
+- **Heart Disease Dataset** (`heart_disease_data.csv`)
 
   - 303 patient records with 13 clinical features
   - Features include age, sex, chest pain type, blood pressure, cholesterol, etc.
   - Target variable: heart disease diagnosis (binary classification)
-  - `processed_cleveland_data` is a version of the dataset that needs some more work on it to show a real world scenario where data is not ready to be used out of the box.
 
 ## Practical Notebooks
 
@@ -62,7 +61,7 @@ This tutorial is based on the **BRCCH Foundations of Data Science** lecture taug
 **Working with real-world dataset:**
 
 - **Mapping values to meaningful names**: sometimes the data needs additional work to make them ready to be analysed
-- **Statistical tests**: normality and group comparison tests
+- **Statistical tests**: normality tests
 
 ### 5. Machine Learning Project
 
@@ -102,7 +101,6 @@ By completing this tutorial, you will be able to:
    - Implement proper data splitting and cross-validation
    - Recognize and prevent overfitting
    
-
 
 ## Getting Started
 

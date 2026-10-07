@@ -115,9 +115,8 @@ By completing this tutorial, you will be able to:
    - Distinguish between supervised and unsupervised learning
    - Implement proper data splitting and cross-validation
    - Recognize and prevent overfitting
+
    
-
-
 ## Getting Started
 
 ### Prerequisites

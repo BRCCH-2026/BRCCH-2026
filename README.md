@@ -8,7 +8,7 @@ A comprehensive tutorial series covering the fundamentals of data science, machi
 
 No installation needed: click a badge below to open the notebook in Google Colab. The first code cell in each notebook downloads the data automatically.
 
-| Part | Notebook | Open |
+| Part | Notebook | Open Colab |
 | :-- | :-- | :-- |
 | 1 | Introduction to Python and pandas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/1_introduction_python_pandas_students.ipynb) |
 | 2 | Data Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/2_data_visualisation_students.ipynb) |

@@ -4,6 +4,20 @@ A comprehensive tutorial series covering the fundamentals of data science, machi
 
 ![intro-tutorial](intro-tutorial.png)
 
+## Open the Notebooks in Google Colab
+
+No installation needed: click a badge below to open the notebook in Google Colab. The first code cell in each notebook downloads the data automatically.
+
+| Part | Notebook | Open |
+| :-- | :-- | :-- |
+| 1 | Introduction to Python and pandas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/1_introduction_python_pandas_students.ipynb) |
+| 2 | Data Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/2_data_visualisation_students.ipynb) |
+| 3 | Data Wrangling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/3_data_wrangling_students.ipynb) |
+| 4 | Statistics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/4_statistics_students.ipynb) |
+| 5 | Machine Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amohap/BRCCH-2026/blob/main/5_machine_learning_heart_disease_students.ipynb) |
+
+**Important:** to keep your work, save your own copy first with *File → Save a copy in Drive*.
+
 ## Course Overview
 
 This tutorial is based on the **BRCCH Foundations of Data Science** lecture taught by Dr. Albert Belenguer-Llorens, Johanna Wahn, and Adriana Mohap from ETH Zurich's Biomedical Data Science Lab. The course provides a systematic introduction to data science concepts with practical applications in healthcare and biomedical research.
@@ -23,6 +37,7 @@ This tutorial is based on the **BRCCH Foundations of Data Science** lecture taug
   - 303 patient records with 13 clinical features
   - Features include age, sex, chest pain type, blood pressure, cholesterol, etc.
   - Target variable: heart disease diagnosis (binary classification)
+  - Source: Cleveland Clinic Foundation data from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease) (Janosi, Steinbrunn, Pfisterer & Detrano, 1989; CC BY 4.0)
 
 ## Practical Notebooks
 
@@ -61,7 +76,7 @@ This tutorial is based on the **BRCCH Foundations of Data Science** lecture taug
 **Working with real-world dataset:**
 
 - **Mapping values to meaningful names**: sometimes the data needs additional work to make them ready to be analysed
-- **Statistical tests**: normality tests
+- **Statistical tests**: normality and group comparison tests
 
 ### 5. Machine Learning Project
 
@@ -102,6 +117,7 @@ By completing this tutorial, you will be able to:
    - Recognize and prevent overfitting
    
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -115,15 +131,23 @@ By completing this tutorial, you will be able to:
 - numpy
 - matplotlib
 - seaborn
+- scipy
 - scikit-learn
+- joblib
 
 ## Usage Instructions
 
-1. **Start with the Python Refresher Notebook** to ensure solid foundation in Python concepts
-2. **Work through the Pandas Introduction Notebook** to master data manipulation
-3. **Follow the Data Visualization Notebook** to learn plotting techniques
-4. **Apply concepts to the heart disease dataset** for hands-on practice
-5. **Review lecture materials** for theoretical background
+1. **Open the notebooks in order** (Part 1 to 5) using the Colab badges above. Each notebook builds on the previous one.
+2. **Save a copy in your Drive** before you start working.
+3. **Run the cells from top to bottom.** Exercises are marked with `# YOUR CODE HERE` or `#TODO`.
+4. **Review the lecture materials** for the theoretical background.
+
+To work locally instead, clone the repository and install the required libraries:
+
+```bash
+git clone https://github.com/amohap/BRCCH-2026.git
+pip install pandas numpy matplotlib seaborn scipy scikit-learn joblib
+```
 
 ## Enhanced ML Workflow Checklist
 
